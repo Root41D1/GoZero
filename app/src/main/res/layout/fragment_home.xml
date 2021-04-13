@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ImageView
+        android:id="@+id/logohpuu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/logohpu" />
+
+    <TextView
+        android:id="@+id/gozerohomee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="25dp"
+        android:text="GoZero"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/generaal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="44dp"
+        android:src="@drawable/general" />
+
+    <TextView
+        android:id="@+id/generalll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="49dp"
+        android:textSize="25dp"
+        android:text="General"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textinspekk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:text="Inspection"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/gmbrcorectivee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="215dp"
+        android:src="@drawable/corertive" />
+
+    <TextView
+        android:id="@+id/textcorrectiveee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="220dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="Corrective" />
+
+    <TextView
+        android:id="@+id/textinspekcorretiveeee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="222dp"
+        android:layout_marginTop="300dp"
+        android:text="Inspection"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/gmbrlantnworksopp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="46dp"
+        android:src="@drawable/planworksop" />
+
+    <TextView
+        android:id="@+id/textplan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="525dp"
+        android:layout_marginLeft="52dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="Plant dan Workshop" />
+
+    <TextView
+        android:id="@+id/textinspekplantsnworksopp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="552dp"
+        android:text="Inspection"
+        android:textColor="#000000" />
+</RelativeLayout>

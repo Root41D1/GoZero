@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/backbuttongeneral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/caretleft"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/generaninspection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="General Inspection"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/buttondate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/borderbg"
+        android:drawableEnd="@drawable/ic_baseline_calendar_today_24"
+        android:editable="false"
+        android:ems="14"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:fontFamily="@font/poppinsregular"
+        android:hint="MM/DD/YYYY"
+        android:inputType="text|number"
+        android:padding="10dp"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_texttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="24dp"
+        android:text="No Date Choosen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/btnkantorgudang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kantor dan Gudang"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bordertombolcreate"
+                android:ems="14"
+                android:padding="25dp"
+                android:fontFamily="@font/poppinsregular"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/btnmessdapur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mess dan Dapur"
+                android:layout_marginTop="110dp"
+                android:background="@drawable/bordertombolcreate"
+                android:ems="14"
+                android:padding="25dp"
+                android:fontFamily="@font/poppinsregular"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/btnpittambang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pit Tambang"
+                android:layout_marginTop="210dp"
+                android:background="@drawable/bordertombolcreate"
+                android:ems="14"
+                android:padding="25dp"
+                android:fontFamily="@font/poppinsregular"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/btnjalanangkut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jalan Angkut Batubara"
+                android:layout_marginTop="310dp"
+                android:background="@drawable/bordertombolcreate"
+                android:ems="14"
+                android:padding="25dp"
+                android:fontFamily="@font/poppinsregular"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/btnarealedakduar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Area Peledakan"
+                android:layout_marginTop="410dp"
+                android:background="@drawable/bordertombolcreate"
+                android:ems="14"
+                android:padding="25dp"
+                android:fontFamily="@font/poppinsregular"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/btnmainfueltank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Main Fuel Tank"
+                android:fontFamily="@font/poppinsregular"
+                android:layout_marginTop="510dp"
+                android:textSize="18dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/bordertombolcreate"
+                android:ems="14"
+                android:padding="25dp"
+                android:layout_marginLeft="20dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

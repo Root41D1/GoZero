@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CorrectiveResult">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Corrective Result"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_marginLeft="110dp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/namasite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Site :"
+        android:fontFamily="@font/robotoregular"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/longsor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longsor"
+        android:textColor="#000000"
+        android:fontFamily="@font/robotomedium"
+        android:textSize="18dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="120dp"/>
+
+    <TextView
+        android:id="@+id/departemen"
+        android:layout_below="@+id/namasite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotoregular"
+        android:text="Departemen :"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/hpu"
+        android:layout_below="@+id/longsor"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HPU"
+        android:textColor="#000000"
+        android:fontFamily="@font/robotomedium"
+        android:textSize="18dp"
+        android:layout_marginLeft="133dp"/>
+
+    <TextView
+        android:id="@+id/lokasiareaa"
+        android:layout_below="@+id/departemen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotoregular"
+        android:text="Lokasi / Area :"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/kalbar"
+        android:layout_below="@+id/hpu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kalimantan Timur"
+        android:textColor="#000000"
+        android:fontFamily="@font/robotomedium"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="140dp"/>
+
+    <TextView
+        android:id="@+id/tanggal"
+        android:layout_below="@+id/lokasiareaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotoregular"
+        android:text="Tanggal :"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/tgll"
+        android:layout_below="@+id/kalbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="03/04/2021"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:fontFamily="@font/robotomedium"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:id="@+id/peyimpangan"
+        android:layout_below="@+id/tanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotoregular"
+        android:text="Penyimpangan :"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/longsorluber"
+        android:layout_below="@id/tgll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotomedium"
+        android:text="Longsor Luber"
+        android:textColor="@color/merah"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="153dp"/>
+
+    <TextView
+        android:id="@+id/kodebahayaa"
+        android:layout_below="@+id/peyimpangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotoregular"
+        android:text="Kode Bahaya :"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/kdbahaya"
+        android:layout_below="@+id/longsorluber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="402"
+        android:textColor="@color/merah"
+        android:textSize="18dp"
+        android:fontFamily="@font/robotomedium"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="143dp"/>
+
+    <TextView
+        android:id="@+id/penyebabdasartimbulnya"
+        android:layout_width="153dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/kodebahayaa"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Penyebab Dasar Timbulnya Deviasi"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/adanyabahaya"
+        android:fontFamily="@font/robotomedium"
+        android:layout_below="@+id/kdbahaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adanya Bencana Alam"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_marginTop="22.5dp"
+        android:layout_marginLeft="190dp"/>
+
+    <TextView
+        android:id="@+id/tindakanperbaikandanpencegahan"
+        android:layout_width="167dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/penyebabdasartimbulnya"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Tindakan Perbaikan dan Pencegahan"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/pencegahann"
+        android:layout_below="@+id/adanyabahaya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotomedium"
+        android:text="Pencegahan"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginLeft="200dp"/>
+
+    <TextView
+        android:id="@+id/olehpic"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tindakanperbaikandanpencegahan"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/robotoregular"
+        android:text="Oleh Pic :"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/formen"
+        android:layout_below="@id/tindakanperbaikandanpencegahan"
+        android:fontFamily="@font/robotomedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Formen"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:id="@+id/bataswaktuu"
+        android:fontFamily="@font/robotoregular"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/olehpic"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Batas Waktu :"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/bulan"
+        android:layout_below="@+id/formen"
+        android:fontFamily="@font/robotomedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 Bulan"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="138dp"/>
+
+    <TextView
+        android:id="@+id/statuss"
+        android:layout_width="87dp"
+        android:fontFamily="@font/robotoregular"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bataswaktuu"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Status :"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/blm"
+        android:fontFamily="@font/robotomedium"
+        android:layout_below="@+id/bulan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belum"
+        android:textColor="@color/merah"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="85dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:fontFamily="@font/robotomedium"
+        android:textColor="@color/white"
+        android:background="@drawable/borderhistory"
+        android:ems="8"
+        android:padding="10dp"
+        android:layout_below="@id/statuss"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/submittt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:fontFamily="@font/robotomedium"
+        android:textColor="@color/white"
+        android:background="@drawable/bordertombolcreate"
+        android:ems="8"
+        android:padding="10dp"
+        android:layout_below="@id/statuss"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="220dp"/>
+
+    <TextView
+        android:id="@+id/titikduadeviasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:fontFamily="@font/robotomedium"
+        android:textSize="20dp"
+        android:layout_below="@+id/kodebahayaa"
+        android:layout_marginLeft="178dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:fontFamily="@font/robotomedium"
+        android:textSize="20dp"
+        android:layout_below="@+id/titikduadeviasi"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="38dp"/>
+
+
+
+
+</RelativeLayout>

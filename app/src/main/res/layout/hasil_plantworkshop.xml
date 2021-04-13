@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textSize="25dp"
+        android:fontFamily="@font/dmserifreguler"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="75dp"/>
+
+    <ImageView
+        android:id="@+id/garisplantworkshop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/garishasilplantworkshop" />
+
+    <TextView
+        android:id="@+id/tindakannplantworkshop"
+        android:layout_below="@+id/garisplantworkshop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tindakan yang diusulkan :"
+        android:textSize="18dp"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="66dp"/>
+
+    <TextView
+        android:id="@+id/ya"
+        android:layout_below="@+id/tindakannplantworkshop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ya"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="68dp"/>
+
+    <TextView
+        android:id="@+id/berjumlah5"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="berjumlah 5"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/black"
+        android:layout_marginTop="124dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:id="@+id/tidak"
+        android:layout_below="@+id/ya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tidak"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:id="@+id/berjumlah3"
+        android:textSize="18dp"
+        android:layout_below="@+id/berjumlah5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="berjumlah 5"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/black"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="125dp"/>
+
+    <TextView
+        android:id="@+id/prioritas"
+        android:layout_below="@+id/tidak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prioritas"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="72dp"/>
+
+    <TextView
+        android:layout_below="@+id/berjumlah3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="berjumlah 5"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/black"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="150dp"/>
+
+    <TextView
+        android:id="@+id/savesuccesfull"
+        android:layout_below="@+id/prioritas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Succesful"
+        android:textSize="18dp"
+        android:fontFamily="@font/robotomedium"
+        android:textColor="@color/biru"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="73dp"/>
+
+
+    <TextView
+        android:id="@+id/backhasil"
+        android:layout_below="@+id/savesuccesfull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:background="@drawable/kotaksolidbiru"
+        android:ems="5"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:fontFamily="@font/robotomedium"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="125dp"/>
+
+
+</RelativeLayout>

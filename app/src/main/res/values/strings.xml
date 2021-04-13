@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">GoZero</string>
+    <string name="plant_workshop"><![CDATA[Plant & Workshop]]></string>
+    <string name="kantor_gudang"><![CDATA[Kantor & Gudang]]></string>
+
+    <string-array name="sort">
+        <item>General</item>
+        <item>Corrective</item>
+        <item>PlantWorkshop</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inspection</string>
+    <string name="menu_gallery">History</string>
+    <string name="menu_slideshow">Report</string>
+
+
+    <string name="teks3">Permukaan lantai dan gang untuk
+berjalan bersih dan tidak licin.</string>
+    <string name="teks2">Toilet / kamar mandi umum terpelihara, dan dibersihkan secara rutin.</string>
+    <string name="teks1">Atap, dinding, pintu, jendela dalam kondisi bersih, baik dan tidak rusak.</string>
+    <string name="teks4">Penerangan (buatan / alami) memadai, tidak kurang atau tidak silau.</string>
+    <string name="teks5">Ventilasi (buatan / alami) memadai..</string>
+    <string name="teks6">Penyimpanan rapi, diatas rak, dan untuk penumpukan dilantai di dalam garis demarkasi..</string>
+    <string name="teks7">Housekeeping dan kebersihan di area sekitar bangunan memadai..</string>
+    <string name="teks8">Penumpukan di halaman (yard) rapi, di area demarkasi, dan ada gang.</string>
+    <string name="teks9">Halaman parkir rata, bersih, luas dan semua kendaraan parkir mundur.</string>
+    <string name="teks10">Tempat sampah cukup dan dikosongkan secara rutin.</string>
+    <string name="teks11">Instalasi listrik, saklar, kabel dalam kondisi baik dan aman.</string>
+    <string name="teks12">Semua tangga dalam kondisi baik, kode warna standar dan ada KIP.</string>
+    <string name="teks13">Penyimpanan tabung las berdiri, terikat, dipisahkan antara tabung kosong dan isi, dipisahkan antara tabung O2, N2, Acetilene.</string>
+    <string name="teks14">Lokasi dekat dengan klinik. Jika jauh dilengkapi dengan peralatan P3K.</string>
+    <string name="teks15">Penyimpanan bahan mudah terbakar sesuai standar dan terpisah dengan barang lainnya.</string>
+    <string name="teks16">Semua furniture (lemari, kursi, meja, dll) bersih dan ergonomis.</string>
+    <string name="teks17">Penyimpanan bahan B3 tersendiri dan dilengkapi MSDS.</string>
+    <string name="teks18">Rambu, tanda K3LH dan kode warna cukup dan sesuai standar.</string>
+    <string name="teks19">Semua karyawan memakai APD sesuai standar.</string>
+    <string name="teks20">Ada rambu “Dilarang Masuk Selain Petugas” di pintu ruang khusus.</string>
+    <string name="teks21">Alat dan instalasi pemadam kebakaran memadai dan diinspeksi rutin.</string>
+    <string name="teks22">Dilengkapi dengan alarm emergency dan tempat berkumpul darurat.</string>
+
+    //messdapur
+    <string name="teks1mess">Semua saluran drainase/selokan bersih dan tidak tersumbat.</string>
+    <string name="teks2mess">Semua lantai bersih, tidak licin dan tidak rusak.</string>
+    <string name="teks3mess">Dinding, atap, pintu, jendela bersih dan tidak rusak.</string>
+    <string name="teks4mess">Penerangan (buatan / alami) memadai, tidak kurang atau tidak silau.</string>
+    <string name="teks5mess">Ventilasi (buatan / alami) memadai.</string>
+    <string name="teks6mess">Housekeeping dan kebersihan secara umum baik.</string>
+    <string name="teks7mess">Meja dan tempat duduk cukup dan kondisinya bersih.</string>
+    <string name="teks8mess">Cermin bersih dan tidak pecah.</string>
+    <string name="teks9mess">Wastafel bersih dan dilengkapi dengan sabun / disinfektan.</string>
+    <string name="teks10mess">Bak mandi dan toilet bersih, dilengkapi form pemantauan area basah.</string>
+    <string name="teks11mess">Tersedia air panas di dapur untuk mencuci perabotan (piring, gelas, dll).</string>
+    <string name="teks12mess">Tempat tidur, kamar tidur bersih dan rapi, dibersihkan setiap hari.</string>
+    <string name="teks13mess">Fan, belt dan semua bagian bergerak dari peralatan diberi pengaman.</string>
+    <string name="teks14mess">Kulkas/fresher/kompor/dispenser/peralatan lain bersih dan tidak rusak.</string>
+    <string name="teks15mess">Instalasi listrik, saklar, kabel roll dalam kondisi baik dan aman.</string>
+    <string name="teks16mess">Bangunan dilengkapi pentanahan yang diinspeksi secara rutin.</string>
+    <string name="teks17mess">Penempatan tabung gas berdiri, terikat. Hose dan regulator tidak rusak.</string>
+    <string name="teks18mess">Tempat penyiapan makanan memadai, bersih dan bebas serangga.</string>
+    <string name="teks19mess">Gudang penyimpanan makanan bersih, bebas serangga, dan tidak ada penumpukan di lantai.</string>
+    <string name="teks20mess">APD untuk petugas dapur dan kebersihan lengkap dan dipakai.</string>
+    <string name="teks21mess">Rambu, tanda KPLH dan kode warna sesuai standar.</string>
+    <string name="teks22mess">Alat dan instalasi pemadam kebakaran memadai dan diinspeksi rutin.</string>
+    <string name="teks23mess">Bangunan dilengkapi alarm emergency dan tempat berkumpul darurat.</string>
+    <string name="teks24mess">Di semua penghujung saluran drainage (sebelum keluar lingkungan) terpasang bak pengendapan.</string>
+    <string name="teks25mess">Halaman parkir rata, bersih, luas dan semua kendaraan parkir mundur.</string>
+    <string name="teks1pit">Pengendalian debu : penyiraman terjadwal, jumlah water truck cukup.</string>
+    <string name="teks2pit">Kondisi slope / bench : ketinggian dan kemiringan standar, bebas batuan lepas.</string>
+    <string name="teks3pit">Luas area untuk manuver (di front, disposal dan ROM) memadai.</string>
+    <string name="teks4pit">Penerangan di front / disposal / ROM memadai.</string>
+    <string name="teks5pit">Housekeeping terpelihara dengan baik. Tempat sampah memadai jumlahnya dan dikosongkan secara rutin.</string>
+    <string name="teks6pit">Sump/Settling pond dalam kondisi lancar aliran airnya dan terawat.</string>
+    <string name="teks7pit">Semua operator dan driver melaksanakan P2H (random sampling).</string>
+    <string name="teks8pit">Rambu-rambu lalu lintas lengkap dan memadai (dilapisi pantul cahaya).</string>
+    <string name="teks9pit">Semua karyawan disiplin terhadap semua aturan / prosedur KPLH.</string>
+    <string name="teks10pit">Ada rambu-rambu penunjuk arah masuk, keluar, ke titik pengungsian, dll.</string>
+    <string name="teks11pit">Tersedia APAR di semua unit dan tersedia 1 water truck yang dapat berfungsi sebagai unit pemadam kebakaran.</string>
+    <string name="teks12pit">Semua kendaraan sarana pengawas dilengkapi dengan kantong P3K.</string>
+    <string name="teks13pit">Kendaraan sarana dan kendaraan dengan ketinggian kurang dari 4 m dilengkapi buggy whip yang tingginya 4 meter dari tanah.</string>
+    <string name="teks14pit">Drainage / arah aliran air memadai dan tidak ada genangan air di permukaan.</string>
+    <string name="teks15pit">Jalan angkut rata (tidak bergelombang) dan bebas dari batuan lepas.</string>
+    <string name="teks16pit">Lebar jalan angkut sesuai standar dan dilengkapi bund–wall yang memadai.</string>
+    <string name="teks17pit">Semua jalan angkut dilengkapi dengan bund wall dan parit drainage.</string>
+    <string name="teks18pit">Rintangan / blind of spot dilengkapi dengan cermin cembung yang memadai.</string>
+    <string name="teks19pit">Semua driver dan operator memiliki surat izin mengoperasikan (random sampling).</string>
+    <string name="teks20pit">Semua air limbah/hujan dari tambang/ROM mengalir ke sump/settling pond.</string>
+    <string name="teks21pit">Karyawan yang bekerja dengan dewatering dilengkapi pelampung.</string>
+    <string name="teks22pit">Bagian berputar dari pompa air, tower lamp diberi pengaman.</string>
+    <string name="teks23pit">Kondisi sling, rantai, dan alat angkat lainnya baik, bersih dan ada KIP.</string>
+    <string name="teks24pit">Semua unit / peralatan dilengkapi perlengkapan keselamatan (safety devices).</string>
+
+
+    <string name="teks1jalanangkut">Pengendalian debu : penyiraman terjadwal, jumlah water truck cukup.</string>
+    <string name="teks2jalanangkut">Penerangan di dumping area (stock pile) memadai.</string>
+    <string name="teks3jalanangkut">Housekeeping / kebersihan jalan angkut baik dan memadai (bebas dari sampah dan barang bekas lainnya).</string>
+    <string name="teks4jalanangkut">Kondisi equipment:bersih,semua lampu dan alat peringatan berfungsi (random sampling).</string>
+    <string name="teks5jalanangkut">Semua operator dan driver melaksanakan P2H (random sampling).</string>
+    <string name="teks6jalanangkut">Rambu-rambu lalu lintas memadai (dilengkapi lapisan pantul cahaya).</string>
+    <string name="teks7jalanangkut">Semua karyawan memakai APD sesuai standar.</string>
+    <string name="teks8jualangkut">Semua unit rusak di jalan terpasang rambu-rambu (traffic cones) di depan – belakang dengan jarak sesuai standar.</string>
+    <string name="teks9jalanangkut">Tersedia APAR di semua unit dan tersedia 1 water truck yang dapat berfungsi sebagai unit pemadam kebakaran.</string>
+    <string name="teks10jalanangkut">Semua kendaraan sarana pengawas dilengkapi dengan kantong P3K.</string>
+    <string name="teks11jalanangkut">Area perbaikan jalan diberi rambu-rambu peringatan dari 2 arah dengan jarak sesuai standar.</string>
+    <string name="teks12jalanangkut">Sistem peringatan dengan klakson disiplin dilakukan.</string>
+    <string name="teks13jalanangkut">Jalan angkut rata (tidak bergelombang) dan bebas dari batuan lepas.</string>
+    <string name="teks14jalanangkut">Lebar jalan angkut sesuai standar.</string>
+    <string name="teks15jalanangkut">Semua jalan angkut dilengkapi dengan‘bund wall’dan parit drainage.</string>
+    <string name="teks16jalanangkut">Rintangan / tikungan buta dilengkapi dengan cermin cembung yang memadai.</string>
+    <string name="teks17jalanangkut">Semua driver dan operator memiliki surat izin mengoperasikan (random sampling).</string>
+    <string name="teks18jalanangkut">Semua driver dan operator memakai seat belt (random sampling).</string>
+    <string name="teks19jalanangkut">Bagian berputar dari pompa air, tower lamp diberi pengaman.</string>
+    <string name="teks20jalanangkut">Semua unit dilengkapi lampu rotary sesuai standar.</string>
+    <string name="title_activity_area_peledakan">AreaPeledakan</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="teks1mainfulltank">Main fuel tank dengan kapasitas lebih dari 40rb liter,harus ada surat izin dari Departemen Pertambangan dan Energi.</string>
+    <string name="teks2mainfulltank">Jarak lokasi main fuel tank dengan bangunan lain sesuai ketentuan.</string>
+    <string name="teks3mainfulltank">Selang, pipa, drum dan sambungan tidak ada kebocoran.</string>
+    <string name="teks4mainfulltank">Tidak ada tumpahan fuel / olie di tanah atau lantai.</string>
+    <string name="teks5mainfulltank">Semua selang ‘out-let’ dilengkapi dengan nozzles.</string>
+    <string name="teks6mainfulltank">Area sekitar bebas dari sampah yang mudah terbakar.</string>
+    <string name="teks7mainfulltank">Khusus main fuel tank : dilengkapi tanggul dan lantai kedap cairan dengan volume tanggul = 110% dari kapasitas maksimal tanki.</string>
+    <string name="teks8mainfulltank">Khusus gudang olie : lantai harus kedap cairan, aliran air terarah ke parit, dan sekeliling lantai bagian dalam dibuat parit yang terpisah dengan parit luar.</string>
+    <string name="teks9mainfulltank">Saluran drainage dilengkapi dengan trap, sebelum keluar ke lingkungan bebas. Trap dipelihara / dikuras secara rutin.</string>
+    <string name="teks10mainfulltank">Semua selang dan pipa di atas permukaan tanah (tidak ditanam).</string>
+    <string name="teks11mainfulltank">Area diberi pagar dan pintu yang di kunci.</string>
+    <string name="teks12mainfulltank">Penerangan memadai.</string>
+    <string name="teks13mainfulltank">Tempat sampah memadai dan dilengkapi dengan penutup.</string>
+    <string name="teks14mainfulltank">Tersedia bak penampung tetesan portable di titik pengisian.</string>
+    <string name="teks15mainfulltank">Semua karyawan disiplin terhadap aturan / prosedur K3LH.</string>
+    <string name="teks16mainfulltank">Semua tangga sesuai standar, kode warna dan diinspeksi rutin.</string>
+    <string name="teks17mainfulltank">Tersedia tongkat khusus untuk mengukur volume fuel / olie.</string>
+    <string name="teks18mainfulltank">Alat dan instalasi pemadam kebakaran memadai dan diinspeksi rutin.</string>
+    <string name="teks19mainfulltank">Gudang olie : penempatan drum rapi dan memudahkan di dalam pengambilan, tiap-tiap tipe olie dikelompokkan penempatannya.</string>
+    <string name="teks20mainfulltank">Ventilasi gudang olie memadai.</string>
+    <string name="teks21mainfulltank">Terpasang rambu-rambu “Dilarang merokok”.</string>
+    <string name="title_activity_check_point">CheckPoint</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    app:contentPadding="5dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="General"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#189F99"
+            android:fontFamily="@font/robotoregular"/>
+
+        <TextView
+            android:id="@+id/inspeksi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF5A60"
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/kantor_gudang"
+            android:fontFamily="@font/poppinsregular"/>
+
+        <TextView
+            android:id="@+id/tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="dd/mm/yyyy"
+            android:fontFamily="@font/poppinsregular"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
