@@ -30,6 +30,11 @@ class HomeFragment : Fragment() {
                 ViewModelProvider(this).get(HomeViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_home, container, false)
         val textView: TextView = root.findViewById(R.id.text_home)
+        val imageView: ImageView = root.findViewById(R.id.generaal)
+        imageView.setOnClickListener{
+            val intent = Intent(getActivity(),MainActivity::class.java)
+            getActivity()?.startActivity(intent)
+        }
         return root
 
     }
