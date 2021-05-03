@@ -6,6 +6,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.*
+import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
 class MainActivity : AppCompatActivity(), DatePickerDialog.OnDateSetListener, TimePickerDialog.OnTimeSetListener {
@@ -27,6 +28,11 @@ class MainActivity : AppCompatActivity(), DatePickerDialog.OnDateSetListener, Ti
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        backbuttongeneral.setOnClickListener{
+            val mainActivity2 = Intent(this, MainActivity2::class.java)
+            startActivity(mainActivity2)
+        }
 
         val kantorgudang = findViewById<TextView>(R.id.btnkantorgudang)
         kantorgudang.setOnClickListener{

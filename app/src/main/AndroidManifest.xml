@@ -14,15 +14,15 @@
             android:theme="@style/Theme.GoZero.NoActionBar"/>
 
         <activity android:name=".CorrectiveResult" />
-        <activity android:name=".MainActivity2">
+        <activity android:name=".MainActivity2"/>
+        <activity android:name=".History" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".History" />
-        <activity android:name=".LoginActivity"/>
         <activity android:name=".ReportActivity" />
         <activity android:name=".PlantWorkshop25" />
         <activity android:name=".PlantWorkshop24" />

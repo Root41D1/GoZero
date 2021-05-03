@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import org.si.gozero.MainActivity
+import org.si.gozero.PlantWorkshop
 import org.si.gozero.PlantWorkshop1
 import org.si.gozero.R
 
@@ -31,8 +32,14 @@ class HomeFragment : Fragment() {
         val root = inflater.inflate(R.layout.fragment_home, container, false)
         val textView: TextView = root.findViewById(R.id.text_home)
         val imageView: ImageView = root.findViewById(R.id.generaal)
+        val Gambar: ImageView = root.findViewById(R.id.gmbrlantnworksopp)
         imageView.setOnClickListener{
             val intent = Intent(getActivity(),MainActivity::class.java)
+            getActivity()?.startActivity(intent)
+        }
+
+        Gambar.setOnClickListener{
+            val intent = Intent(getActivity(),PlantWorkshop::class.java)
             getActivity()?.startActivity(intent)
         }
         return root
