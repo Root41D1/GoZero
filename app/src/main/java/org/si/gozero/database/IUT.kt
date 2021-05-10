@@ -8,7 +8,7 @@ import java.util.*
 
 @Entity(tableName = "IUT")
 @Parcelize
-class IUT(
+class   IUT(
     @PrimaryKey val id_iut: Int,
     val tanggal: Date,
     val nilai: Int,
