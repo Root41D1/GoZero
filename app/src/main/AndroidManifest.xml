@@ -9,9 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GoZero">
-            android:name=".MainActivity2"
-            android:label="@string/title_activity_main2"/>
-            android:theme="@style/Theme.GoZero.NoActionBar"/>
 
         <activity android:name=".CorrectiveResult" />
         <activity android:name=".MainActivity2"/>

@@ -8,9 +8,10 @@ import java.util.*
 
 @Entity(tableName = "IUT")
 @Parcelize
-class   Master_Kdbahaya(
-        @PrimaryKey val kd_bahaya: String,
-        val nm_kd: String
+class   MasterLokasi(
+        @PrimaryKey val id_lokasi: String,
+        val nm_lokasi: String,
+        val id_departemen: String
 )
     : Parcelable {
 

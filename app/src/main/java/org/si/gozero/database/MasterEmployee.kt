@@ -6,9 +6,9 @@ import androidx.room.PrimaryKey
 import kotlinx.android.parcel.Parcelize
 import java.util.*
 
-@Entity(tableName = "Master_Site")
+@Entity(tableName = "ms_employee")
 @Parcelize
-class Master_Employee(
+class MasterEmployee(
     @PrimaryKey val NIK: String,
     val nm_karyawan: String,
     val id_departemen: String,

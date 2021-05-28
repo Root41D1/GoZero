@@ -8,7 +8,7 @@ import java.util.*
 
 @Entity(tableName = "IUT")
 @Parcelize
-class Master_Site(
+class MasterSite(
     @PrimaryKey val site_code: String,
     val nm_site: String,
     val company: String

@@ -16,7 +16,7 @@ class   IUTv2(
         val tanggal: Date,
         val NIK: String,
         val jawaban: String,
-        val note: Text
+        val note: String
 )
     : Parcelable {
 
